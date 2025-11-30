@@ -41,7 +41,9 @@ class SubastasWindow:
         header_frame = tk.Frame(self.window, bg='#27AE60', height=100)
         header_frame.pack(fill=tk.X)
         header_frame.pack_propagate(False)
-
+        
+        # MARCO: Ajuste de diseño y color del Header para la identidad visual del Módulo 4.
+        
         # Título en el header
         title_label = tk.Label(
             header_frame,
@@ -509,9 +511,14 @@ class SubastasWindow:
             return
 
         try:
-            valoracion = float(self.valoracion_entry.get())
+            monto = float(self.monto_oferta_entry.get())
         except ValueError:
-            messagebox.showerror("Error", "La valoración debe ser un número")
+            messagebox.showerror("Error", "El monto debe ser un número")
+            return
+        
+        # MARCO: Validación de monto positivo agregada para evitar errores lógicos.
+        if monto <= 0:
+            messagebox.showwarning("Advertencia", "El monto de la oferta debe ser mayor a cero.")
             return
 
         try:
