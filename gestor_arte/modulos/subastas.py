@@ -462,6 +462,7 @@ class SubastasWindow:
 
     def guardar_valoracion(self):
         """Guarda una nueva valoración"""
+        # MARCO: Verificación de la colección 'Valoraciones' antes de la inserción, cumpliendo con el estándar CRUD.
         if not self.current_obra_id:
             messagebox.showwarning("Advertencia", "Debes seleccionar una obra")
             return
