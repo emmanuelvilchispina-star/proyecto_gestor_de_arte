@@ -258,10 +258,10 @@ pip install pymongo
 ## Autores
 
 Proyecto desarrollado por:
-Emmanuel Alejandro Vilchis Piña
-Adrian Laredo Reyes
-Pablo Reyes Alvarez
-Diego Edu Diaz Leon
+- Emmanuel Alejandro Vilchis Piña
+- Adrian Laredo Reyes
+- Pablo Reyes Alvarez
+- Diego Edu Diaz Leon
 
 ## Licencia
 
