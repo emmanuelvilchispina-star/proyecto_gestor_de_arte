@@ -257,7 +257,11 @@ pip install pymongo
 
 ## Autores
 
-Proyecto desarrollado como parte del curso de Bases de Datos.
+Proyecto desarrollado por:
+- Emmanuel Alejandro Vilchis Piña
+- Adrian Laredo Reyes
+- Pablo Reyes Alvarez
+- Diego Edu Diaz Leon
 
 ## Licencia
 
