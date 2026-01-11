@@ -247,13 +247,6 @@ pip install pymongo
 - **Arquitectura:** Modular con separación de responsabilidades
 - **Control de Acceso:** Basado en roles
 
-## Desarrollo Futuro
-
-- Exportación de reportes a PDF
-- Gráficos estadísticos
-- Sistema de respaldo automático
-- API REST para integración externa
-- Soporte multiidioma
 
 ## Autores
 
@@ -262,6 +255,7 @@ Proyecto desarrollado por:
 - Adrian Laredo Reyes
 - Pablo Reyes Alvarez
 - Diego Edu Diaz Leon
+
 
 ## Licencia
 
